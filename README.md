@@ -1,7 +1,13 @@
-# cld_textui
-A text UI for Cloud Community.
+# night_dispatchv2
+FiveM ESX TextUI by Nightt#8899 (Bombay's modification)
 
-## THE SHARING OF THIS OUTSIDE OF CLOUD COMMUNITY IS PROHIBITED
-## IF DONE, THIS WILL BE MADE PUBLIC
+- | Discord: https://discord.gg/wfPKxjGgTN
+- | Preview: 
 
-### Did not pay so... yeah
+![image](https://user-images.githubusercontent.com/101990128/201953613-20592680-c93c-4da0-9db0-a0d62ac4b356.png)
+
+
+- Espero que os guste, disfrutadlo :)
+- I hope you like it, enjoy it :)
+
+grasias zGqnis por el betatester
