@@ -1,0 +1,86 @@
+@font-face {
+  font-family: nfont;
+  src: url("https://cdn.discordapp.com/attachments/839958624340148314/1040718200465281024/Gobold_Regular.ttf");
+}
+
+body {
+  font-family: nfont;
+  margin: 0;
+  padding: 0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 23vw;
+  left: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+}
+
+.ui-container {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin: 1rem;
+}
+
+.infotext {
+  position: absolute;
+  top: 1vw;
+  left: -1.2vw;
+  padding: 0.1vw;
+  transform: translate(-60%, -60%);
+  transform-origin: center;
+  font-size: 19px;
+  color: white;
+  background: linear-gradient(90deg, rgb(212, 67, 91) 3%, rgb(249, 24, 136) 100%);
+  box-shadow: 0 0 10px rgba(212, 67, 91, 0.61), 0 0 10px rgb(249, 24, 136), 0 0 10px rgba(212, 67, 91, 0.466), 0 0 10px rgba(249, 24, 136, 0.301) ;
+  border-radius: 0.1vw;
+}
+
+.data-flex {
+  position: relative;
+  background: none;
+  box-shadow: 0 0 4px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-radius: 3px;
+  padding: 1px 1.2rem;
+  height: 2rem;
+}
+
+.ui-key {
+  display: grid;
+  place-items: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: #e3e2e2;
+  border-radius: 2px;
+  font-size: 0.7vw;
+  /* border-right: 2px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4; */
+}
+
+.ui-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 0.5rem;
+  font-size: 0.8vw;
+  font-weight: 400;
+}
